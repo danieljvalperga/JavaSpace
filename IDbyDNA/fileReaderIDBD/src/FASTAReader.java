@@ -25,7 +25,7 @@ public class FASTAReader {
 				}
 			}
 
-			doOutput();
+			genOutput();
 
 		} catch(Exception e) {
 			System.out.println("Encountered unexpected error: ["+e.getMessage()+"]");
@@ -53,7 +53,7 @@ public class FASTAReader {
 
 	}
 
-	private static void doOutput() {
+	private static void genOutput() {
 		int largest = 0, val = 0;
 		String largestKey = "";
 
