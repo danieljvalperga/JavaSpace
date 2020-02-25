@@ -4,7 +4,7 @@ import java.util.Hashtable;
 import java.util.Scanner;
 
 public class FASTAReader_v2 {
-	private static final String path = "D:\\Documents\\coding_exercises\\IDbyDNA\\SRR1748776.fa";
+	private static final String path = "D:\\Documents\\coding_exercises\\IDBD\\SRR1748776.fa";
 	private static Hashtable<String, Integer> ht = new Hashtable<String, Integer>();
 	private static int total = 0;		//kmers added
 	private static int readCount = 0;	//Reads encountered

@@ -3,7 +3,7 @@ import java.util.Hashtable;
 import java.util.Scanner;
 
 public class FASTAReader {
-	private static final String inputPath = "D:\\Documents\\coding_exercises\\IDbyDNA\\SRR1748776.fa";
+	private static final String inputPath = "D:\\Documents\\coding_exercises\\IDBD\\SRR1748776.fa";
 	private static Hashtable<String, Integer> ht = new Hashtable<String, Integer>();
 	private static int total = 0;
 
